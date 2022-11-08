@@ -2,6 +2,8 @@ import logo from './Logo.svg';
 import './App.css';
 import Intro from './components/Introduction';
 import Desc from './components/Description';
+import Serv from './components/Services';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       </div>
       <Intro />
       <Desc />
+      <Serv />
+      <Form />
     </>
   );
 }

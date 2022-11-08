@@ -16,7 +16,9 @@ function Intro() {
       <form>
         <input id='bussName' placeholder='Bussines Name' type='text' /> would like a beta invite sent to
         <input id='emailAdd' placeholder='@email address' type='text' /> when it's ready!
+        <button type="submit">Notify me</button>
       </form>
+      <a rel="noreferrer" target="_blank" href="https://retink.io/fap/"><button type="button">Sign up as a freelance partner</button></a>
     </>
   );
 }
