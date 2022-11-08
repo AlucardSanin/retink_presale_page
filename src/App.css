@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.App-logo { 
+  position: absolute; 
+  top: 72px;
+  left: 10%;
+}
+
+#headline {
+  display: flex;
+  flex-direction: column;
+  margin-top: 177px;
+  margin-left: 12%;
+  font-family: 'Poppins', sans-serif;
+  max-width: 35%;  
+}
+
+#headline h1 {
+  display: flex;
+  width: 75%;
+  margin-bottom: 0;  
+  font-size: 40px;
+}
+
+.retinkPet {
+  position: absolute;
+  right: 2%;
+  top: 22px;
+  width: 613px;
+  height: 778px;
+}
+
+.Form1 {
+  display: flex;
+  width: 60%;
+  margin-left: 12%;
+  margin-top: 77px;
+  padding-bottom: 31px;
+  font-family:'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.Form1 input{
+  border-top: none; 
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  font-style: italic;    
+}
+
+::placeholder{
+  color: #7E1CFE;
+  font-family:'Poppins', sans-serif;
+}
+
+#buttons {
+  display: flex;
+  margin-left: 12%;
+  max-width: 25%;
+  justify-content: space-between;
+}

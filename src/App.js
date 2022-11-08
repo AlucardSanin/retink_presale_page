@@ -1,4 +1,5 @@
 import logo from './Logo.svg';
+import './App.css';
 import Intro from './components/Introduction';
 import Desc from './components/Description';
 import Serv from './components/Services';
@@ -10,12 +11,12 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-        </header>
-      </div>
+        </header> 
       <Intro />
       <Desc />
       <Serv />
       <Form />
+      </div>     
     </>
   );
 }
