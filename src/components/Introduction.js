@@ -5,7 +5,7 @@ function Intro() {
   return (
     <>
       <div id='headline'>
-        <h1>Get Davanced AI + Expert Created</h1>
+        <h1>Get Advanced AI + Expert Created</h1>
       </div>
       <div id='companyService'>
         <p>Boost your sales 10x faster with content customized by our unique partnership of human creativity and AI optimization</p>
