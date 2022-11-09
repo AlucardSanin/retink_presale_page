@@ -6,10 +6,8 @@ import Desc from './components/Description';
 import Serv from './components/Services';
 import Form from './components/Form';
 import Foot from './components/Footer'
-import reveal from './index'
 
-function App() {
-  
+function App() {  
   return (
     <>
       <div className="App">
