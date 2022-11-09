@@ -26,57 +26,63 @@ function Services() {
         </div>
       </div>
       <div id="servicesContainer">
-        <div id="serv1">
+        <div className="serv">
           <figure>
             <img src={serv1} alt="Logos" />
             <figcaption>Logos</figcaption>
           </figure>
+          <hr></hr>
           <p>
             {' '}
             Have a unique & creative logo designed to express and represent
             your brand identity.
           </p>
         </div>
-        <div id="serv2">
+        <div className="serv">
           <figure>
             <img src={serv2} alt="Notebook and glasses" />
             <figcaption>Blog Writing</figcaption>
           </figure>
+          <hr></hr>
           <p>
             {' '}
             Write SEO enriched blog posts as long or short articles on any
             topic of your choice.
           </p>
         </div>
-        <div id="serv3">
+        <div className="serv">
           <figure>
             <img src={serv3} alt="Notebook Rendering" />
             <figcaption>Animated Videos</figcaption>
           </figure>
+          <hr></hr>
           <p>Bring animated characters to life to keep your viewers engaged and  entertained.</p>
         </div>
-        <div id="serv4">
+        <div className="serv">
           <figure>
             <img src={serv4} alt="Camera Lens" />
             <figcaption>Product Demo</figcaption>
           </figure>
+          <hr></hr>
           <p>Introduce your product to potential customers in a clear and creative video.</p>
         </div>
-        <div id="serv5">
+        <div className="serv">
           <figure>
             <img src={serv5} alt="Write Machine" />
             <figcaption>Copywriting</figcaption>
           </figure>
+          <hr></hr>
           <p>
             Have creative and compelling copies written to boost your product,
             brand, service or company.
           </p>
         </div>
-        <div id="serv6">
+        <div className="serv">
           <figure>
             <img src={serv6} alt="Phone" />
             <figcaption>Social Media Ads</figcaption>
           </figure>
+          <hr></hr>
           <p>Boost sales and awareness with tailor made ads from experts.</p>
         </div>
       </div>

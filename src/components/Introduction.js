@@ -24,7 +24,7 @@ function Intro() {
       </form>
       <div id='buttons'>
         <button type="submit">Notify me</button>
-        <a rel="noreferrer" target="_blank" href="https://retink.io/fap/"><button type="button">Sign up as a freelance partner</button></a>
+        <button type="button" id="a1"><a rel="noreferrer" target="_blank" href="https://retink.io/fap/">Sign up as a freelance partner</a></button>
       </div>
     </>
   );

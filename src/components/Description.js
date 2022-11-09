@@ -12,7 +12,7 @@ function Desc() {
         <img src={video} alt="Video Explainer" />
       </div>
       <div id="services">
-        <div id="rectangle1" className="service">
+        <div className="service">
           <figure>
             <img src={rect1} alt="Artificial Inteligence" />
             <figcaption>MakeAI-assisted  Content Choices</figcaption>
@@ -22,7 +22,7 @@ function Desc() {
             your budget`s terms. If unsure, our AI guides you to the best.
           </p>
         </div>
-        <div id="rectangle2" className="service">
+        <div className="service">
           <figure>
             <img src={rect2} alt="Group" />
             <figcaption>Upload and Maintain your Brand Identity</figcaption>
@@ -32,7 +32,7 @@ function Desc() {
             with your brand identity. No brand asset? We can make for you!
           </p>
         </div>
-        <div id="rectangle3" className="service">
+        <div className="service">
           <figure>
             <img src={rect3} alt="Get informed" />
             <figcaption>Be informed as we create</figcaption>
@@ -42,7 +42,7 @@ function Desc() {
             you relax and receive continuous updates.
           </p>
         </div>
-        <div id="rectangle4" className="service">
+        <div className="service">
           <figure>
             <img src={rect4} alt="Comunication exchange" />
             <figcaption>Receive and Review</figcaption>
@@ -52,7 +52,7 @@ function Desc() {
             to satisfy your requirements.
           </p>
         </div>
-        <div id="rectangle5" className="service">
+        <div className="service">
           <figure>
             <img src={rect4} alt="Comunication exchange" />
             <figcaption>Publish and Monitor your content`s progress</figcaption>

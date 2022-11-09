@@ -4,6 +4,7 @@ import Intro from './components/Introduction';
 import Desc from './components/Description';
 import Serv from './components/Services';
 import Form from './components/Form';
+import Foot from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Desc />
       <Serv />
       <Form />
+      <Foot />
       </div>     
     </>
   );
