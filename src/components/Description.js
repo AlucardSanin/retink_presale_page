@@ -1,4 +1,5 @@
 import React from 'react';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import video from './VideoExplainer.svg';
 import rect1 from './rect1.svg';
 import rect2 from './rect2.svg';
@@ -9,8 +10,10 @@ function Desc() {
   return (
     <>
       <div id="vid">
+        <h2>EXPLAINER</h2>
         <img src={video} alt="Video Explainer" />
       </div>
+    <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
       <div id="services">
         <div className="service">
           <figure>
@@ -63,6 +66,7 @@ function Desc() {
           </p>
         </div>
       </div>
+      </AnimationOnScroll>
     </>
   );
 }

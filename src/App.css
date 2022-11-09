@@ -32,13 +32,15 @@
   width: 613px;
   height: 778px;
   z-index: -1;
+  animation-name: slidein;
+  animation-duration: 2s;
 }
 
 .Form1 {
   display: flex;
   width: 60%;
   margin-left: 12%;
-  margin-top: 77px;
+  margin-top: 15px;
   padding-bottom: 31px;  
   font-size: 15px;
 }
@@ -62,6 +64,16 @@
   line-height: 170%;  
 }
 
+button[type~="submit"]:hover {
+  background-color: white;
+  color: #754DE8;
+}
+
+button[type~="button"]:hover {
+  background-color: #754DE8;
+  color: white;
+}
+
 button[type~="submit"] {
   background-color: #7E1CFE;
   color: white;
@@ -71,6 +83,8 @@ button[type~="submit"] {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 button[type~="button"] {
@@ -82,6 +96,8 @@ button[type~="button"] {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   border-color: #7E1CFE;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 #a1 {
@@ -93,9 +109,12 @@ a {
 }
 
 #vid {
-  display: flex;
+  display: flex;  
+  flex-direction: column;
   justify-content: center;
   margin-top: 150px;
+  width: 50%;
+  margin-inline: 25%;
 }
 
 #services {
@@ -202,6 +221,11 @@ h2 {
   text-align: center;
 }
 
+#h2head {
+  text-align: left;
+  margin-left: 14%;
+}
+
 #Form {
   margin-top: 104px;
   display: flex;
@@ -286,3 +310,7 @@ h2 {
   margin-bottom: 0px;  
 }
 
+@keyframes slidein {
+  0% {right: -100px; top: -100px;}
+  100% {right: 2%; top: 22px;}
+}

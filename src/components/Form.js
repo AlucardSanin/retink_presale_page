@@ -10,7 +10,7 @@ function Form() {
           <input id="emailAdd" placeholder="Email" type="text" />
           <button type="submit">Notify me</button>
         </form>
-        <button type="button"><a rel="noreferrer" target="_blank" href="https://retink.io/fap/">Sign up as a freelance partner</a></button>
+        <a rel="noreferrer" target="_blank" href="https://retink.io/fap/"><button type="button">Sign up as a freelance partner</button></a>
       </div>
     </>
   );

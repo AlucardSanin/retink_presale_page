@@ -1,4 +1,5 @@
 import React from 'react';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import serv1 from './serv1.svg';
 import serv2 from './serv2.jpg';
 import serv3 from './serv3.jpg';
@@ -9,6 +10,7 @@ import serv6 from './serv6.jpg';
 function Services() {
   return (
     <>
+    <AnimationOnScroll animateOnce={true} animateIn="animate__bounceIn">
       <div id="newsContainer">
         <div id="p1">
           <h2>Transfrom your Creation Process</h2>
@@ -86,7 +88,8 @@ function Services() {
           <p>Boost sales and awareness with tailor made ads from experts.</p>
         </div>
       </div>
-    </>
+      </AnimationOnScroll>
+    </>    
   );
 }
 
