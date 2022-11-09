@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-*{
+* {
   font-family: 'Poppins', sans-serif;
 }
 
-.App-logo { 
-  position: absolute; 
+.App-logo {
+  position: absolute;
   top: 72px;
   left: 10%;
 }
@@ -14,14 +14,14 @@
   display: flex;
   flex-direction: column;
   margin-top: 177px;
-  margin-left: 12%; 
-  max-width: 35%;  
+  margin-left: 12%;
+  max-width: 35%;
 }
 
 #headline h1 {
   display: flex;
   width: 75%;
-  margin-bottom: 0;  
+  margin-bottom: 0;
   font-size: 40px;
 }
 
@@ -41,75 +41,75 @@
   width: 60%;
   margin-left: 12%;
   margin-top: 15px;
-  padding-bottom: 31px;  
+  padding-bottom: 31px;
   font-size: 15px;
 }
 
-.Form1 input{
-  border-top: none; 
+.Form1 input {
+  border-top: none;
   border-left: none;
   border-right: none;
   text-align: center;
   font-style: italic;
-  background-color: rgba(255, 255, 255, 0.1);    
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-::placeholder{
-  color: #7E1CFE; 
+::placeholder {
+  color: #7e1cfe;
   text-align: center;
 }
 
 #buttons {
-  margin-left: 12%; 
-  line-height: 170%;  
-}
-
-button[type~="submit"]:hover {
-  background-color: white;
-  color: #754DE8;
-}
-
-button[type~="button"]:hover {
-  background-color: #754DE8;
-  color: white;
+  margin-left: 12%;
+  line-height: 170%;
 }
 
 button[type~="submit"] {
-  background-color: #7E1CFE;
+  background-color: #7e1cfe;
   color: white;
   width: 223px;
   height: 58px;
-  font-size: 20px;  
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-size: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   border: none;
   cursor: pointer;
   transition-duration: 0.4s;
 }
 
+button[type~="submit"]:hover {
+  background-color: white;
+  color: #754de8;
+}
+
 button[type~="button"] {
   background-color: white;
-  color: #7E1CFE;  
+  color: #7e1cfe;
   height: 58px;
   width: 340px;
-  font-size: 20px;  
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-size: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
-  border-color: #7E1CFE;
+  border-color: #7e1cfe;
   cursor: pointer;
   transition-duration: 0.4s;
 }
 
+button[type~="button"]:hover {
+  background-color: #754de8;
+  color: white;
+}
+
 #a1 {
-  margin-left: 79px;  
+  margin-left: 79px;
 }
 
 a {
-  color:#7E1CFE;
+  color: #7e1cfe;
 }
 
 #vid {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 150px;
@@ -118,7 +118,7 @@ a {
 }
 
 #services {
-  display: flex;  
+  display: flex;
   width: 90%;
   flex-wrap: wrap;
   margin-inline: 5%;
@@ -138,17 +138,17 @@ a {
   height: 311px;
   box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  text-align: left;  
+  text-align: left;
 }
 
-.service figcaption{
+.service figcaption {
   font-size: 20px;
   font-weight: 600;
   margin-top: 10px;
-  text-align: left;  
+  text-align: left;
 }
 
-.service figure{
+.service figure {
   text-align: center;
 }
 
@@ -160,7 +160,13 @@ a {
   width: 50%;
   margin-top: 251px;
   text-align: center;
-  line-height: 34px;  
+  line-height: 34px;
+}
+
+.serv p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
 }
 
 #newsContainer p {
@@ -169,8 +175,15 @@ a {
   text-align: center;
 }
 
+h2 {
+  color: #7e1cfe;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+}
+
 #newsContainer h2 {
-  color: #7E1CFE;
+  color: #7e1cfe;
   font-weight: 600;
   font-size: 28px;
   line-height: 120%;
@@ -178,7 +191,7 @@ a {
 
 #servicesContainer {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   justify-content: center;
   gap: 21px;
   margin-top: 100px;
@@ -188,37 +201,24 @@ a {
 }
 
 .serv {
-  width: 253px;  
+  width: 253px;
 }
 
 .serv figure {
   margin: 0;
   font-weight: 300;
-  font-size: 18px;  
+  font-size: 18px;
 }
 
-.serv p {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 170%;
+.serv figcaption {
+  padding-top: 11px;
 }
 
-.serv figcaption {  
-  padding-top: 11px;  
-}
-
-.serv hr {  
+.serv hr {
   margin-top: 2px;
-  margin-left: 0px;
+  margin-left: 0;
   width: 80px;
-  border: 1.2px solid #7E1CFE;
-}
-
-h2 {
-  color: #7E1CFE;
-  font-weight: 600;
-  font-size: 28px;
-  text-align: center;
+  border: 1.2px solid #7e1cfe;
 }
 
 #h2head {
@@ -229,15 +229,15 @@ h2 {
 #Form {
   margin-top: 104px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   flex-wrap: wrap;
-  width: 45%;  
+  width: 45%;
   margin-inline: 27.5%;
 }
 
 .Form {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   flex-wrap: wrap;
   gap: 6px;
   row-gap: 36px;
@@ -248,7 +248,7 @@ h2 {
 .Form input {
   width: 288px;
   height: 58px;
-  border: 1px solid #754DE8;
+  border: 1px solid #754de8;
   border-radius: 20px;
   font-size: 20px;
 }
@@ -256,13 +256,13 @@ h2 {
 #Footer {
   margin-top: 119px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 #grayContainer {
   display: flex;
   flex-direction: column;
-  background-color: #D0D0D0;;
+  background-color: #d0d0d0;
   width: 654px;
   height: 188px;
   margin-left: 54px;
@@ -271,12 +271,12 @@ h2 {
   font-weight: 400;
 }
 
-#grayContainer img{
+#grayContainer img {
   width: 186px;
 }
 
-#gray {   
-  background-color: #D0D0D0;
+#gray {
+  background-color: #d0d0d0;
   background-image: url(./components/social.svg);
   background-repeat: no-repeat;
   background-position: top 80px right 10%;
@@ -285,7 +285,7 @@ h2 {
   width: 100%;
 }
 
-#hs { 
+#hs {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -293,24 +293,31 @@ h2 {
 
 #black {
   height: 118px;
-  background-color: #000000;
-  color:  white;
+  background-color: #000;
+  color: white;
 }
 
 #black #b2 {
   text-align: right;
   margin-right: 117px;
   margin-bottom: 17px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
-#black #b1 {  
+#black #b1 {
   margin-top: 35px;
   margin-left: 159px;
-  margin-bottom: 0px;  
+  margin-bottom: 0;
 }
 
 @keyframes slidein {
-  0% {right: -100px; top: -100px;}
-  100% {right: 2%; top: 22px;}
+  0% {
+    right: -100px;
+    top: -100px;
+  }
+
+  100% {
+    right: 2%;
+    top: 22px;
+  }
 }

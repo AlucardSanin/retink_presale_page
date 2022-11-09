@@ -1,16 +1,16 @@
 import React from 'react';
 import avatar from './RetinkAvatar.svg';
 
-function Intro() {  
+function Intro() {
   return (
     <>
       <div id="headline">
         <h1>Get Advanced AI + Expert Created</h1>
-       <p>
+        <p>
           Boost your sales 10x faster with content customized by our
           unique partnership of human creativity and AI optimization
         </p>
-      </div>     
+      </div>
       <div>
         <img src={avatar} className="retinkPet" alt="logo" />
       </div>
@@ -23,7 +23,7 @@ function Intro() {
         {' '}
         when it`s ready!
       </form>
-      <div id='buttons'>
+      <div id="buttons">
         <button type="submit">Notify me</button>
         <a rel="noreferrer" target="_blank" href="https://retink.io/fap/"><button type="button" id="a1">Sign up as a freelance partner</button></a>
       </div>
