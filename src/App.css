@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.App-logo {
+  position: absolute;
+  top: 72px;
+  left: 10%;
+}
+
+#headline {
+  display: flex;
+  flex-direction: column;
+  margin-top: 177px;
+  margin-left: 12%;
+  max-width: 35%;
+}
+
+#headline h1 {
+  display: flex;
+  width: 75%;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.retinkPet {
+  position: absolute;
+  right: 2%;
+  top: 22px;
+  width: 613px;
+  height: 778px;
+  z-index: -1;
+  animation-name: slidein;
+  animation-duration: 2s;
+}
+
+.Form1 {
+  display: flex;
+  width: 60%;
+  margin-left: 12%;
+  margin-top: 15px;
+  padding-bottom: 31px;
+  font-size: 15px;
+}
+
+.Form1 input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+::placeholder {
+  color: #7e1cfe;
+  text-align: center;
+}
+
+#buttons {
+  margin-left: 12%;
+  line-height: 170%;
+}
+
+button[type~="submit"] {
+  background-color: #7e1cfe;
+  color: white;
+  width: 223px;
+  height: 58px;
+  font-size: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button[type~="submit"]:hover {
+  background-color: white;
+  color: #754de8;
+}
+
+button[type~="button"] {
+  background-color: white;
+  color: #7e1cfe;
+  height: 58px;
+  width: 340px;
+  font-size: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  border-color: #7e1cfe;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button[type~="button"]:hover {
+  background-color: #754de8;
+  color: white;
+}
+
+#a1 {
+  margin-left: 79px;
+}
+
+a {
+  color: #7e1cfe;
+}
+
+#vid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+  width: 50%;
+  margin-inline: 25%;
+}
+
+#services {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  margin-inline: 5%;
+  justify-content: center;
+  gap: 17px;
+  align-items: baseline;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-top: 69px;
+  width: 300px;
+  padding-inline: 30.5px;
+  padding-block: 37.5px;
+  height: 311px;
+  box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-align: left;
+}
+
+.service figcaption {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.service figure {
+  text-align: center;
+}
+
+#newsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
+  margin-inline: 25%;
+  width: 50%;
+  margin-top: 251px;
+  text-align: center;
+  line-height: 34px;
+}
+
+.serv p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 170%;
+}
+
+#newsContainer p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #7e1cfe;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+}
+
+#newsContainer h2 {
+  color: #7e1cfe;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+}
+
+#servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 21px;
+  margin-top: 100px;
+  width: 60%;
+  margin-inline: 20%;
+  row-gap: 42px;
+}
+
+.serv {
+  width: 253px;
+}
+
+.serv figure {
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.serv figcaption {
+  padding-top: 11px;
+}
+
+.serv hr {
+  margin-top: 2px;
+  margin-left: 0;
+  width: 80px;
+  border: 1.2px solid #7e1cfe;
+}
+
+#h2head {
+  text-align: left;
+  margin-left: 14%;
+}
+
+#Form {
+  margin-top: 104px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 45%;
+  margin-inline: 27.5%;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  row-gap: 36px;
+  align-self: baseline;
+  margin-bottom: 36px;
+}
+
+.Form input {
+  width: 288px;
+  height: 58px;
+  border: 1px solid #754de8;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+#Footer {
+  margin-top: 119px;
+  display: flex;
+  flex-direction: column;
+}
+
+#grayContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #d0d0d0;
+  width: 654px;
+  height: 188px;
+  margin-left: 54px;
+  margin-top: 70px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#grayContainer img {
+  width: 186px;
+}
+
+#gray {
+  background-color: #d0d0d0;
+  background-image: url(./components/social.svg);
+  background-repeat: no-repeat;
+  background-position: top 80px right 10%;
+  background-size: 264px 66px;
+  height: 346px;
+  width: 100%;
+}
+
+#hs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#black {
+  height: 118px;
+  background-color: #000;
+  color: white;
+}
+
+#black #b2 {
+  text-align: right;
+  margin-right: 117px;
+  margin-bottom: 17px;
+  margin-top: 0;
+}
+
+#black #b1 {
+  margin-top: 35px;
+  margin-left: 159px;
+  margin-bottom: 0;
+}
+
+@keyframes slidein {
+  0% {
+    right: -100px;
+    top: -100px;
+  }
+
+  100% {
+    right: 2%;
+    top: 22px;
+  }
+}
