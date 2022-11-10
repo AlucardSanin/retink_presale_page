@@ -19,7 +19,7 @@
 
 ## Live Demo :arrow_forward:
 
- [Click Here](https://admirable-elf-a5f913.netlify.app/)
+ [Click Here](https://retink-intern.netlify.app/)
 
 ## Set Up Guide :page_facing_up: 
 
